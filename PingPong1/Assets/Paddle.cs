@@ -36,9 +36,9 @@ public class Paddle : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ball") && speed <=25)
+        if (collision.gameObject.CompareTag("Ball"))
         {
-            speed += 0.5f;
+            speed += 1.5f;
         }
     }
 

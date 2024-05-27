@@ -439,7 +439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1: 0
-  speed: 7
+  speed: 9
   rb: {fileID: 158450951}
   startPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &397157467
@@ -1949,7 +1949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer1: 1
-  speed: 7
+  speed: 9
   rb: {fileID: 2139727504}
   startPosition: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
