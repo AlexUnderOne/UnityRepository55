@@ -1,0 +1,2008 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 32676 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Pack\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Git/CloneGitHub/UnityRepository55/RRR/Run rich run
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50470
+Successfully changed project path to: D:/Git/CloneGitHub/UnityRepository55/RRR/Run rich run
+D:/Git/CloneGitHub/UnityRepository55/RRR/Run rich run
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14224] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 2713351896 [EditorId] 2713351896 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A6S60F7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14224] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 2713351896 [EditorId] 2713351896 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A6S60F7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 6.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path D:/Unity Pack/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Git/CloneGitHub/UnityRepository55/RRR/Run rich run/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f03)
+    Vendor:   NVIDIA
+    VRAM:     12061 MB
+    Driver:   31.0.15.5244
+Initialize mono
+Mono path[0] = 'D:/Unity Pack/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Pack/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Pack/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Pack/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity Pack/2022.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity Pack/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004568 seconds.
+- Loaded All Assemblies, in  0.377 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 180 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.527 seconds
+Domain Reload Profiling: 904ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (116ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (527ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (294ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.586 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.635 seconds
+Domain Reload Profiling: 1222ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (133ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (636ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (480ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.9 KB). Loaded Objects now: 3570.
+Memory consumption went from 134.5 MB to 134.4 MB.
+Total: 3.321800 ms (FindLiveObjects: 0.290800 ms CreateObjectMapping: 0.272000 ms MarkObjects: 2.609900 ms  DeleteObjects: 0.148000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6216.535822 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8329.asset
+  artifactKey: Guid(c35cb74ef1f7aa14d85fcce601d5f935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8329.asset using Guid(c35cb74ef1f7aa14d85fcce601d5f935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549eb88c7c233fd2c0b9da620b7c6aaa') in 0.084052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.042664 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8269.asset
+  artifactKey: Guid(03aaa5f9d6eeaaf48838d8af16c87e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8269.asset using Guid(03aaa5f9d6eeaaf48838d8af16c87e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1460dd2ae491a5534ac80e1cb34c86') in 0.011822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8320.asset
+  artifactKey: Guid(a58e09160aaa0ad4f9eb2a714893d1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8320.asset using Guid(a58e09160aaa0ad4f9eb2a714893d1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3846de49bbfdb53dbdeb8e0a65550a32') in 0.012557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8306.asset
+  artifactKey: Guid(7b658f745f22e7b47bcb6587b74c5bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8306.asset using Guid(7b658f745f22e7b47bcb6587b74c5bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0df59d4617c657bc22740b4894512cc') in 0.014263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8297.asset
+  artifactKey: Guid(f0fc5e9eaa3390e4dafbc20db100c39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8297.asset using Guid(f0fc5e9eaa3390e4dafbc20db100c39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461db8f8cb10d56bf6e226e6a1d77583') in 0.012569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8254.asset
+  artifactKey: Guid(dfc756c96d5bac64dbae2d7a4e3e0634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8254.asset using Guid(dfc756c96d5bac64dbae2d7a4e3e0634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349eaf318d796fab89ffd8ffc16b5162') in 0.008341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8259.asset
+  artifactKey: Guid(5b1a60b8070804e45b026afcc4d4be05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8259.asset using Guid(5b1a60b8070804e45b026afcc4d4be05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7362d73cfb75e905ba21eb1f7bbf8c00') in 0.012103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8300.asset
+  artifactKey: Guid(53df425c52e384a4cbb26a817e315592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8300.asset using Guid(53df425c52e384a4cbb26a817e315592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ce2da8f766fb253c3242cd7174ae31') in 0.022333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8256.asset
+  artifactKey: Guid(edfc03d46a21d5e43811ff8498e30162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8256.asset using Guid(edfc03d46a21d5e43811ff8498e30162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abefcf5c7ba90045fa4d7e0eec4061fa') in 0.013309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8275.asset
+  artifactKey: Guid(397c072539a27884e913c278c4835b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8275.asset using Guid(397c072539a27884e913c278c4835b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5998246cae64fb30c4149445f4a07b02') in 0.018605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8290.asset
+  artifactKey: Guid(fcdb5d4e6cb3c1f4eb0c259d00f79627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8290.asset using Guid(fcdb5d4e6cb3c1f4eb0c259d00f79627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44841029f666bc60dfb1af9e0da9eeae') in 0.012464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8311.asset
+  artifactKey: Guid(93743236f317405458ed281550bdc18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8311.asset using Guid(93743236f317405458ed281550bdc18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99189685a674adddc7206ab44a9c25b3') in 0.008354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8258.asset
+  artifactKey: Guid(fcfabdeb7240abe479b5539d8175cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8258.asset using Guid(fcfabdeb7240abe479b5539d8175cfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ac84338efc34f90690962242b19ce2') in 0.013641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8264.asset
+  artifactKey: Guid(6f4ff5ddfd8a60b4aba81c44f41ac6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8264.asset using Guid(6f4ff5ddfd8a60b4aba81c44f41ac6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d30a9a093e975cb82f67bef2cbbc27c') in 0.013224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8265.asset
+  artifactKey: Guid(27376ae652119e04da9f0fdd076cd9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8265.asset using Guid(27376ae652119e04da9f0fdd076cd9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0303ff167b8af472418e1d84e9667192') in 0.011598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8266.asset
+  artifactKey: Guid(187b4987445fb974f9e1df75d79db88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8266.asset using Guid(187b4987445fb974f9e1df75d79db88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0937d8d610ffe9b180b3b5cf6bde1340') in 0.006717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8257.asset
+  artifactKey: Guid(dcb9af55eb940eb48ada73fd3341e42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8257.asset using Guid(dcb9af55eb940eb48ada73fd3341e42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1532854a871409ac1272c2bbe64bdde') in 0.011663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.042197 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8237.asset
+  artifactKey: Guid(7906d8d6078dbc54e8aa45ed50987edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8237.asset using Guid(7906d8d6078dbc54e8aa45ed50987edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d436340506bf3263a65e38c80cdd54') in 0.006485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8243.asset
+  artifactKey: Guid(4eb412802feaa834ab4b2bb6fc1a03ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8243.asset using Guid(4eb412802feaa834ab4b2bb6fc1a03ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee330949e42300e70e89c79a2abc70d') in 0.011420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8248.asset
+  artifactKey: Guid(8ab3e4ea05dccf6438a86ec4d00d0ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8248.asset using Guid(8ab3e4ea05dccf6438a86ec4d00d0ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fac058598e7361ac2b21af3ccf47067') in 0.008473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8240.asset
+  artifactKey: Guid(4705b7c85c58f36409642c5cfb408724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8240.asset using Guid(4705b7c85c58f36409642c5cfb408724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5aa9ab7d5d047c105ba2c4ad803a82') in 0.013459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8245.asset
+  artifactKey: Guid(8f2196c33b099c7448ef0c197c3e249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8245.asset using Guid(8f2196c33b099c7448ef0c197c3e249f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875946478b68b91afcc3063fcec7d262') in 0.008046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8238.asset
+  artifactKey: Guid(c74312cac24aec44c9c87ffe9320c3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8238.asset using Guid(c74312cac24aec44c9c87ffe9320c3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00bfb7419a9d15c4c8bc995112688e5') in 0.010830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018591 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8221.asset
+  artifactKey: Guid(53b6ae7ed8d94cb4181811ee31330e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8221.asset using Guid(53b6ae7ed8d94cb4181811ee31330e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb869c446da4b091ca2c2ccbbc4d996') in 0.013155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8224.asset
+  artifactKey: Guid(8159b1d604933074b8c121cdfb8a3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8224.asset using Guid(8159b1d604933074b8c121cdfb8a3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462ffa6368665d6d02607f9fc47a21ae') in 0.013028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8234.asset
+  artifactKey: Guid(e4efac707daabcb47b78ac0d9aedd811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8234.asset using Guid(e4efac707daabcb47b78ac0d9aedd811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f4da8955e4237679bae92333d250d5') in 0.007485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8222.asset
+  artifactKey: Guid(7c3512cd6878cc3468b81cea5d07a832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8222.asset using Guid(7c3512cd6878cc3468b81cea5d07a832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fde122604fac6605938edc7b2cd063') in 0.012110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8202.asset
+  artifactKey: Guid(c54512cf9fc2e4c41bc4570f79c044a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8202.asset using Guid(c54512cf9fc2e4c41bc4570f79c044a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63bd295e429ac0955ac11a015b5e092') in 0.012235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8217.asset
+  artifactKey: Guid(e97189bc662b69f48a902d8bc39995da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8217.asset using Guid(e97189bc662b69f48a902d8bc39995da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf9ffd086e90ebb6ea29d64671fc25a') in 0.011022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8204.asset
+  artifactKey: Guid(381c23a3b3d53f740a7f4a62f03fe1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8204.asset using Guid(381c23a3b3d53f740a7f4a62f03fe1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10332faff4da7e0ceec7d04b42028244') in 0.011063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8206.asset
+  artifactKey: Guid(1acb6547895ad274eb5751810ec98994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8206.asset using Guid(1acb6547895ad274eb5751810ec98994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5419dbea96a8883498918b73483b17f') in 0.012299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8203.asset
+  artifactKey: Guid(0026d2b789de41e41bec68389c7d454d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8203.asset using Guid(0026d2b789de41e41bec68389c7d454d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2482b4600763523965e13cdf6ea1b39') in 0.007046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8216.asset
+  artifactKey: Guid(32dc9b72fe4c71940952933318da9694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8216.asset using Guid(32dc9b72fe4c71940952933318da9694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9247b8b0dd88fb999652e9785fc8eec7') in 0.006334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8213.asset
+  artifactKey: Guid(b88f79755e92f8446a94e7415913754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8213.asset using Guid(b88f79755e92f8446a94e7415913754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f6837d20c873ae18befcba3fbb9ecf') in 0.012810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8212.asset
+  artifactKey: Guid(757409a487f9b6548b62b9c0021acf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8212.asset using Guid(757409a487f9b6548b62b9c0021acf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659659e126ab23f3766b6601858bbf05') in 0.014948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.086432 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8171.asset
+  artifactKey: Guid(6332fabcbe2b54241830c8db277121eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8171.asset using Guid(6332fabcbe2b54241830c8db277121eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3669f8f2fdafb73344f435c672f28ddc') in 0.010928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8199.asset
+  artifactKey: Guid(72e7bfaa6f917f749b60648b9d5267c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8199.asset using Guid(72e7bfaa6f917f749b60648b9d5267c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fed4b59dd3c9a005cf3d1bf96c94527') in 0.012866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8198.asset
+  artifactKey: Guid(6473912eef6ca30479014f4f45c558f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8198.asset using Guid(6473912eef6ca30479014f4f45c558f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e51479ef89a8ba83a9aa92d20e08f0') in 0.012166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8196.asset
+  artifactKey: Guid(c8eaddfe524986f489a30f2506f147b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8196.asset using Guid(c8eaddfe524986f489a30f2506f147b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f046d8450c2ca0696975b60c0c3f92') in 0.014574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8172.asset
+  artifactKey: Guid(981f43a60a92a764c90da4f5d0d46a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8172.asset using Guid(981f43a60a92a764c90da4f5d0d46a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92713aa046c035bac13f539ac4dc216') in 0.011197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011028 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8112.asset
+  artifactKey: Guid(7292c2226bdf8f7488d7174728fdf0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8112.asset using Guid(7292c2226bdf8f7488d7174728fdf0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a856d448b0c9efa7e811221040b7874') in 0.014231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8122.asset
+  artifactKey: Guid(eab19f326de85d84bb94b256cbf68627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8122.asset using Guid(eab19f326de85d84bb94b256cbf68627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc98e76ca671b24fa120f38f6b75699') in 0.019621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8114.asset
+  artifactKey: Guid(a8780cfb53ea215438a2e759b3b77592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8114.asset using Guid(a8780cfb53ea215438a2e759b3b77592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935e0b36632b91b2cecdbefeb508d277') in 0.013218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8140.asset
+  artifactKey: Guid(09ed965eb5182da479c95e2e8d428b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8140.asset using Guid(09ed965eb5182da479c95e2e8d428b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e14e98e9604909f7f97ed2306f7297') in 0.006693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8129.asset
+  artifactKey: Guid(210a163a0a371ab4590f563e51e3361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8129.asset using Guid(210a163a0a371ab4590f563e51e3361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094b0e122f24bb3ec12a84d6ca5a17d8') in 0.016205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8138.asset
+  artifactKey: Guid(aadcd127b657d0645879ae0cfb304ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8138.asset using Guid(aadcd127b657d0645879ae0cfb304ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53245d4a5e22b644fc786ee6532d2eb5') in 0.013885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8100.asset
+  artifactKey: Guid(83185876dfffe164da63c7cedefff7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8100.asset using Guid(83185876dfffe164da63c7cedefff7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b21fe82738b191549b5ba7ba8024175') in 0.012429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8104.asset
+  artifactKey: Guid(02aeb5fcb13b09240970dbc7ed1fc14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8104.asset using Guid(02aeb5fcb13b09240970dbc7ed1fc14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37e83b69bc8f7cae47d2b2c77f645ba') in 0.012898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8108.asset
+  artifactKey: Guid(f2136739a9fa6e045a869a3abbc5c97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8108.asset using Guid(f2136739a9fa6e045a869a3abbc5c97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db768939e3cc4b406e2d6627234297b') in 0.012755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8164.asset
+  artifactKey: Guid(40d968f6ff5efcd478ec227056fa4f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8164.asset using Guid(40d968f6ff5efcd478ec227056fa4f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c034c50c887e0f8bf5d0678255867198') in 0.006388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8132.asset
+  artifactKey: Guid(c773f4a9e0df1a6439db97e8a71e9d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8132.asset using Guid(c773f4a9e0df1a6439db97e8a71e9d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ce45e03d067048381cfd3b01a2c222') in 0.010739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8131.asset
+  artifactKey: Guid(bcb01a71bb8195741be32fe94bf2e461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8131.asset using Guid(bcb01a71bb8195741be32fe94bf2e461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f5da5e8efaf6fc002b4a2f1ccb0f1e') in 0.012848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8102.asset
+  artifactKey: Guid(ccf7a5e01f6d9814095528ad924cc420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8102.asset using Guid(ccf7a5e01f6d9814095528ad924cc420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938d57bf9081d097fc6c3f01ecc8bd99') in 0.014107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8118.asset
+  artifactKey: Guid(8e8d21204502be8499b40dc5b029594b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8118.asset using Guid(8e8d21204502be8499b40dc5b029594b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ade03467800ffda0fcf87e33d36d73a') in 0.015607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8099.asset
+  artifactKey: Guid(985b0c42a7e80524b801d7a97543248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8099.asset using Guid(985b0c42a7e80524b801d7a97543248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273483b779dd0bfb88d1098a00dc1206') in 0.012049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8127.asset
+  artifactKey: Guid(260d726a325a83b458be8efb36f688ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8127.asset using Guid(260d726a325a83b458be8efb36f688ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ddded36d1f4d1d2988f218dc971270f') in 0.012072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8115.asset
+  artifactKey: Guid(68b2f0e197f68a14499dc024bfe0e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8115.asset using Guid(68b2f0e197f68a14499dc024bfe0e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0a07f3b9e476e6feaa1edb1a4382c4') in 0.012093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.032062 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8078.asset
+  artifactKey: Guid(4c3a7da9d04010e40bb144255552308f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8078.asset using Guid(4c3a7da9d04010e40bb144255552308f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ce7699445afead154f7792aa32e37c') in 0.011495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8086.asset
+  artifactKey: Guid(7e0c3a43fbc0044479c1dba823d65c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8086.asset using Guid(7e0c3a43fbc0044479c1dba823d65c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c3dea5267752916bb4a5d6057a8ce3') in 0.011828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8088.asset
+  artifactKey: Guid(8e0fc11c7403cac40a128c60741d57ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8088.asset using Guid(8e0fc11c7403cac40a128c60741d57ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00254e99c9c07641e432f903fa11835c') in 0.012543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8080.asset
+  artifactKey: Guid(999a5162bb1b7634ab4f5d007a8b2983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8080.asset using Guid(999a5162bb1b7634ab4f5d007a8b2983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059cf139c405f8a2407f1431f532e761') in 0.012873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8036.asset
+  artifactKey: Guid(32e2458bac37d1d4289a764bc4459593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8036.asset using Guid(32e2458bac37d1d4289a764bc4459593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb3c0d196a218602e52f3b7aaad50e6') in 0.014186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8068.asset
+  artifactKey: Guid(8101367fc60a5d74d86e4503581334a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8068.asset using Guid(8101367fc60a5d74d86e4503581334a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012d755152ab81e50fa3dde780864be7') in 0.024965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8061.asset
+  artifactKey: Guid(016d792100077eb42b8587b9f5858731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8061.asset using Guid(016d792100077eb42b8587b9f5858731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a122e5389a8e29d1f3c841e7815dcf1f') in 0.011829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8073.asset
+  artifactKey: Guid(1d2b269fc5843bd43a961d0bc33d3a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8073.asset using Guid(1d2b269fc5843bd43a961d0bc33d3a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7716a80bf15b84ccfc075a9d55def91') in 0.032017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8062.asset
+  artifactKey: Guid(9dc16ef01bfc5764598acdcd5d6252ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8062.asset using Guid(9dc16ef01bfc5764598acdcd5d6252ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407bb9556606a179e5f1114b765df3c6') in 0.012222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8007.asset
+  artifactKey: Guid(1d7f1a3e27294f64da4d9c723830975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8007.asset using Guid(1d7f1a3e27294f64da4d9c723830975c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244e4982a695041e61444db9e83f98b0') in 0.012864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7986.asset
+  artifactKey: Guid(6b3be21f299e96e4eb87f39c318eb3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7986.asset using Guid(6b3be21f299e96e4eb87f39c318eb3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a164b53c478e2bd7dd4bd3c28548ea2') in 0.014559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7992.asset
+  artifactKey: Guid(e141edd2e013e1c49b48b2bf4d95fc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7992.asset using Guid(e141edd2e013e1c49b48b2bf4d95fc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e8d876fb0632a931dc65e2edbb19ca') in 0.013194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7984.asset
+  artifactKey: Guid(412df318e9fd2d64d86e0e366001035d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7984.asset using Guid(412df318e9fd2d64d86e0e366001035d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cad6035b62c7834fb25efb17a4064da') in 0.017182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8070.asset
+  artifactKey: Guid(08b9c8690b89d1243b6cf7ddd30781b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8070.asset using Guid(08b9c8690b89d1243b6cf7ddd30781b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012734223567820ac047e40c200d2806') in 0.011061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8054.asset
+  artifactKey: Guid(8b03068a4113dc8448ec55e1f01e6ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8054.asset using Guid(8b03068a4113dc8448ec55e1f01e6ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25f4e1c4fdace0cd3c6ad67ca528a26') in 0.012449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8067.asset
+  artifactKey: Guid(c9c7ff2a8f42a614287380b21f1f6fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8067.asset using Guid(c9c7ff2a8f42a614287380b21f1f6fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3612706b544e4cec2560c4e18a86cc3a') in 0.027578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8042.asset
+  artifactKey: Guid(9fb8e78b25f9cdc4ea610596c2ac0a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8042.asset using Guid(9fb8e78b25f9cdc4ea610596c2ac0a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b91ff6c925c0a6acd5300f2b63c938a') in 0.012254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8052.asset
+  artifactKey: Guid(a9bc91ee79bc87e488cbf1d622e3bbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8052.asset using Guid(a9bc91ee79bc87e488cbf1d622e3bbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb04fb5afdee3089710a835fa18bb26') in 0.013504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8090.asset
+  artifactKey: Guid(56e4935bbd3f9834dace59787c19f767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8090.asset using Guid(56e4935bbd3f9834dace59787c19f767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8f00a5d717c8d88ef69e2adf253764') in 0.013429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8089.asset
+  artifactKey: Guid(2f625e2f69cb25a4499bed5b3171e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8089.asset using Guid(2f625e2f69cb25a4499bed5b3171e890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c01ec5f00f4f6cb63a62830f8fe609') in 0.012135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.8040.asset
+  artifactKey: Guid(b0f2bec5b823c1e4288a9b7a0d5d9061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.8040.asset using Guid(b0f2bec5b823c1e4288a9b7a0d5d9061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669f324b286f08b55a4ed590101c62d2') in 0.013675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.041177 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7903.asset
+  artifactKey: Guid(cd9999acfc84b154cb430f6fce2f0857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7903.asset using Guid(cd9999acfc84b154cb430f6fce2f0857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18743fb23ade8ae0ae0f6066f0d05bc') in 0.011293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7908.asset
+  artifactKey: Guid(4b080e5308e77f04a895aabe3d5746d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7908.asset using Guid(4b080e5308e77f04a895aabe3d5746d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7dc8c07737d64b1dc37689b0507e3e') in 0.013531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7906.asset
+  artifactKey: Guid(7aae9ca991644ef4da4651f35bf60f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7906.asset using Guid(7aae9ca991644ef4da4651f35bf60f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e60392383e9b8d96badbee31fbb77e5') in 0.012120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7918.asset
+  artifactKey: Guid(0730e5d4098b3174e92abc2196598f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7918.asset using Guid(0730e5d4098b3174e92abc2196598f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1e8159198a6855ccf8b29c0c2f2466') in 0.013460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7919.asset
+  artifactKey: Guid(aae42952697a39342b0adbf477388203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7919.asset using Guid(aae42952697a39342b0adbf477388203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332c83d1fbcaf4660240d9fd6ea0ac9e') in 0.008139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018825 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7840.asset
+  artifactKey: Guid(9ff6368d972e4dc4e97f495e39a0f057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7840.asset using Guid(9ff6368d972e4dc4e97f495e39a0f057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb354aba6952d19a8e2dd1fe353ff892') in 0.012265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7871.asset
+  artifactKey: Guid(0239a5e9031d4c94886eeeadaa9fb8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7871.asset using Guid(0239a5e9031d4c94886eeeadaa9fb8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4e2a93cecf9ab9408ae48f9f0917e1') in 0.007936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7886.asset
+  artifactKey: Guid(a3291bf52eb5e294b82bbe291410f80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7886.asset using Guid(a3291bf52eb5e294b82bbe291410f80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581015f107af2cc814081ac3894a4404') in 0.016482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7865.asset
+  artifactKey: Guid(efc1a63bd32ebae43b343317e531f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7865.asset using Guid(efc1a63bd32ebae43b343317e531f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69bb485ef12c15f68a2903638822ab0') in 0.012554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7885.asset
+  artifactKey: Guid(5aa942f2a6dcd41469504853dfdebe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7885.asset using Guid(5aa942f2a6dcd41469504853dfdebe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bc49d453073390b2066abcecbb0bec') in 0.012718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7696.asset
+  artifactKey: Guid(08bf8694c377ccb4a8af8eb956e179e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7696.asset using Guid(08bf8694c377ccb4a8af8eb956e179e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115a13aed7af412ca3e942272b6b2e5a') in 0.012487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7766.asset
+  artifactKey: Guid(e2c312a7ba8500c4aa33f0698dd648db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7766.asset using Guid(e2c312a7ba8500c4aa33f0698dd648db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc8e145008387705466d139bafad420') in 0.007235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7697.asset
+  artifactKey: Guid(6677c5e365630394590121917e4478eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7697.asset using Guid(6677c5e365630394590121917e4478eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2104362cb4cec59c7b4d80bc668377d5') in 0.011219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7814.asset
+  artifactKey: Guid(2fff3023550c86a4087166db21734bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7814.asset using Guid(2fff3023550c86a4087166db21734bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11208ea56e910394250104a04f66fd6') in 0.011585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7797.asset
+  artifactKey: Guid(52cde14dd975a0c4d82d4ff113c2c22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7797.asset using Guid(52cde14dd975a0c4d82d4ff113c2c22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb46c1dcb6a04d459ea332c623b329da') in 0.012701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7706.asset
+  artifactKey: Guid(ff88d6508b84f4f4999be6121cac2928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7706.asset using Guid(ff88d6508b84f4f4999be6121cac2928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5964f6aa622d780709ce9d2d8ece4b6d') in 0.012267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7498.asset
+  artifactKey: Guid(4860e5eeff76cba45b02bc89b27395de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7498.asset using Guid(4860e5eeff76cba45b02bc89b27395de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6153c724ccd51e3e33e7dfbcd4e72fe5') in 0.005983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7505.asset
+  artifactKey: Guid(56b048e16317a5547818fb0dd3f5309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7505.asset using Guid(56b048e16317a5547818fb0dd3f5309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d32bb81a8cb673cb7ea321290ab25b') in 0.011502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7532.asset
+  artifactKey: Guid(56d3a1324674d37418eabb66bf921eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7532.asset using Guid(56d3a1324674d37418eabb66bf921eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d80c3e23797048b33f3dc1b6da9dde9') in 0.011445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7570.asset
+  artifactKey: Guid(87d044ea31a591f48aacf3af7e35dee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7570.asset using Guid(87d044ea31a591f48aacf3af7e35dee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81402f18cf68e73eeba4a7c7e51ef265') in 0.011748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7571.asset
+  artifactKey: Guid(72f54b3aa676fea4cb459760154514be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7571.asset using Guid(72f54b3aa676fea4cb459760154514be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae605da6872e4936ef5cca7a5924dea') in 0.006124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7592.asset
+  artifactKey: Guid(72361b46f0cdcb94e82e5c91ab868ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7592.asset using Guid(72361b46f0cdcb94e82e5c91ab868ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176be8ffcc4f9fb6edcec1e32d21e16b') in 0.012665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7599.asset
+  artifactKey: Guid(26501a64353fc724893957c2d1547e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7599.asset using Guid(26501a64353fc724893957c2d1547e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7d23f40d4ceee4f042fc6ab8262b91') in 0.011737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7616.asset
+  artifactKey: Guid(57800ec27e0eb664e80bfeecfe9b9b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7616.asset using Guid(57800ec27e0eb664e80bfeecfe9b9b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bde704acf0a26980c0b8c5f0154333') in 0.011729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7613.asset
+  artifactKey: Guid(ec0d1f9af93575c4d9eeaa465dae6d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7613.asset using Guid(ec0d1f9af93575c4d9eeaa465dae6d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85912e948aba123f043e7aa699141c95') in 0.011354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7637.asset
+  artifactKey: Guid(b7085c9ad5cb58a478725756039a468c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7637.asset using Guid(b7085c9ad5cb58a478725756039a468c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54969c02224034d9279eea2b72d58007') in 0.011685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7658.asset
+  artifactKey: Guid(a32eb81b3cf77bb46bfe13dc96a8c1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7658.asset using Guid(a32eb81b3cf77bb46bfe13dc96a8c1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5923355bef4bd0839db7f5e0398edfb7') in 0.011426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7656.asset
+  artifactKey: Guid(5bf72a034ada8e948b7b478e3f92de14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7656.asset using Guid(5bf72a034ada8e948b7b478e3f92de14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43137c2c9412a147e554d4677077732e') in 0.013023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7657.asset
+  artifactKey: Guid(2b182ba0f9e41634ab23f1d318e171ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7657.asset using Guid(2b182ba0f9e41634ab23f1d318e171ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79816ff79668b8a613747cd5ea2ecfb') in 0.014395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7601.asset
+  artifactKey: Guid(d4bf8152f2e05ed40a6396d297d23b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7601.asset using Guid(d4bf8152f2e05ed40a6396d297d23b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e45f203f04a85087cba8d6985afe7f8') in 0.006687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7663.asset
+  artifactKey: Guid(78b314997166e934cbe80584dd2fc81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7663.asset using Guid(78b314997166e934cbe80584dd2fc81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a089491909ceb1836e99aabcd5525cd') in 0.013616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7701.asset
+  artifactKey: Guid(e180e2f52066ef44ab47acddf9f04d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7701.asset using Guid(e180e2f52066ef44ab47acddf9f04d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5a29c0549a64b78f1826f317bb857d') in 0.012717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual/Mesh/EndLevel_Orange.asset
+  artifactKey: Guid(1c0714d8cc24ba843901e1f3d715fc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/EndLevel_Orange.asset using Guid(1c0714d8cc24ba843901e1f3d715fc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e54f12c2cf852d17e222515972b2e9') in 0.035809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/Geisha_Rich.asset
+  artifactKey: Guid(ede6f12efc52db84fbc61ada58164ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Geisha_Rich.asset using Guid(ede6f12efc52db84fbc61ada58164ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415ef90c6a4feb72c909c36e750d3f5a') in 0.025928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/girl_Black_Poor.asset
+  artifactKey: Guid(3c752786e562e084ca90ccd27c8cce07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/girl_Black_Poor.asset using Guid(3c752786e562e084ca90ccd27c8cce07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513e4c87727347ba121a86cb6df5992b') in 0.027320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/Door_Rich_02.asset
+  artifactKey: Guid(5a655061eca852840a3dee0da071ac69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Door_Rich_02.asset using Guid(5a655061eca852840a3dee0da071ac69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31aac057f8fd388334f6fac20deb95ae') in 0.011886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Visual/Mesh/Indian_Poor.asset
+  artifactKey: Guid(e8c09c21eb179604195d4ea1c97b2c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Indian_Poor.asset using Guid(e8c09c21eb179604195d4ea1c97b2c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3485eba84e0deb631cbf8df54c404be') in 0.025519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Visual/Mesh/key.asset
+  artifactKey: Guid(9e2dfc478421a5b4d9d5d90727bc6dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/key.asset using Guid(9e2dfc478421a5b4d9d5d90727bc6dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53f422ffbf3fb38f26284e419bcf140') in 0.011867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.006.asset
+  artifactKey: Guid(24e5687d9cf837f4fa6bddc67cc0ec3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.006.asset using Guid(24e5687d9cf837f4fa6bddc67cc0ec3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0771472674fd5c5a53fbad4cb63161c') in 0.010256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.012.asset
+  artifactKey: Guid(8dce570897f4b7d48ad7754455494a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.012.asset using Guid(8dce570897f4b7d48ad7754455494a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099753c8b6443b79c05958d22c08206a') in 0.011102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.040.asset
+  artifactKey: Guid(489de54516d0cde4485a01257dba6ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.040.asset using Guid(489de54516d0cde4485a01257dba6ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7aba264fd9150e5426b79b9e2d25b33') in 0.028255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.113.asset
+  artifactKey: Guid(17561a2ebcde9364e9bbab71683efdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.113.asset using Guid(17561a2ebcde9364e9bbab71683efdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21047f0ab9b26421e06656bb6a31be40') in 0.011438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/Indian_Millionnaire.asset
+  artifactKey: Guid(8e4a5f00902a09946ae5311b00c33300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Indian_Millionnaire.asset using Guid(8e4a5f00902a09946ae5311b00c33300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6134fd87aea202ba844ab9bf8e18a7') in 0.038983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7508.asset
+  artifactKey: Guid(e17762714aa6b8442982020b17f8dce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7508.asset using Guid(e17762714aa6b8442982020b17f8dce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba9d76759054e6e967eadf4a2045ff7') in 0.012156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/LowPoly/bills.fbx
+  artifactKey: Guid(271f997204c4cf546a598e1f5fcb126b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/LowPoly/bills.fbx using Guid(271f997204c4cf546a598e1f5fcb126b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fa8b15b2c1e58cdabea4bf38948e0a') in 0.059404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Visual/Mesh/CinГ©ma_Descent.asset
+  artifactKey: Guid(bb760eb52d374584eb7873c809f91ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/CinГ©ma_Descent.asset using Guid(bb760eb52d374584eb7873c809f91ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d7954ad72298f032fe6eac605cfd25') in 0.005531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Visual/Mesh/Controller.asset
+  artifactKey: Guid(df92d9dd7cf2f564ba54d2f4715b7f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Controller.asset using Guid(df92d9dd7cf2f564ba54d2f4715b7f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220eb6aab178547d18ec22a7763e179c') in 0.012643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/Descent_Carpet.asset
+  artifactKey: Guid(d1eedede3644c074a81883f1b83fc930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Descent_Carpet.asset using Guid(d1eedede3644c074a81883f1b83fc930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db63748c5db3966de0f03803c6d0a039') in 0.005464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.128.asset
+  artifactKey: Guid(8f0910525b3256943afe3b6e23483470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.128.asset using Guid(8f0910525b3256943afe3b6e23483470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7eea30821e50ff7e22f08328dabc20') in 0.011191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/Door_Descent_02.asset
+  artifactKey: Guid(bf87b8f6fc17d884c8ab0e4dd23f949d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Door_Descent_02.asset using Guid(bf87b8f6fc17d884c8ab0e4dd23f949d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd74ddd6fb6715aa1c78b469bbceb738') in 0.011847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/Door_Poor_001.asset
+  artifactKey: Guid(d139cbbb4530df04a9c79d1339515adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Door_Poor_001.asset using Guid(d139cbbb4530df04a9c79d1339515adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53164fd21e2437a156eba066fdc3f59') in 0.012786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7709.asset
+  artifactKey: Guid(bb5c3385864b7bb41a6f07a33eaa8e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7709.asset using Guid(bb5c3385864b7bb41a6f07a33eaa8e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281bfdaf7ed89f9e0404933b85179c6b') in 0.014602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Visual/Mesh/hair_cocktail_EndLevel.asset
+  artifactKey: Guid(35faa924f11f2d14e84685ae02afd48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/hair_cocktail_EndLevel.asset using Guid(35faa924f11f2d14e84685ae02afd48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca72e2e551e3c9ace490cdb41d35971') in 0.021042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7556.asset
+  artifactKey: Guid(60ce4b9cc6354d7498baf5e9077204b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7556.asset using Guid(60ce4b9cc6354d7498baf5e9077204b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d95adc5e444d4a2a39c3e014290731') in 0.011502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7614.asset
+  artifactKey: Guid(d992edc2421b4e24b8f669a36131112e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7614.asset using Guid(d992edc2421b4e24b8f669a36131112e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6f1ca20498394e3b3b3149d954cc4f') in 0.014168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7772.asset
+  artifactKey: Guid(4b65beeb42cb00249a7128c2abab7309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7772.asset using Guid(4b65beeb42cb00249a7128c2abab7309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1620a6bdb1815e088918e4ad224d03') in 0.009930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7653.asset
+  artifactKey: Guid(4302e2adca199a24d8f339f30bbb8272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7653.asset using Guid(4302e2adca199a24d8f339f30bbb8272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc52eaa5a89e48f5f21b6e58fba8de5d') in 0.012325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7789.asset
+  artifactKey: Guid(473db67360e81554680c019060d4307b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7789.asset using Guid(473db67360e81554680c019060d4307b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc3a8be975b04b4eda92595f3e7b03b') in 0.012031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.111.asset
+  artifactKey: Guid(0f89c8f192e9a0345afe5183f03b2f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.111.asset using Guid(0f89c8f192e9a0345afe5183f03b2f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7994909815f249b6c8c9d8eccc55bb2e') in 0.014779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7705.asset
+  artifactKey: Guid(e10cea71779020547b0fb2caf4e24e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7705.asset using Guid(e10cea71779020547b0fb2caf4e24e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb163e2467b9151e06e0154c69aaf1c') in 0.007712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/Cowboy_Rich.asset
+  artifactKey: Guid(8b8ae8d1c4361984e8af60eaf7dd81ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Cowboy_Rich.asset using Guid(8b8ae8d1c4361984e8af60eaf7dd81ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f6f70182102eddc7127061d04710cb') in 0.035765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/Kitchen_Poor.asset
+  artifactKey: Guid(7b8e68685ecaae047ba7490f17cfa46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Kitchen_Poor.asset using Guid(7b8e68685ecaae047ba7490f17cfa46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1344224f48c53e0c68de9a7a57b96d3') in 0.006063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7781.asset
+  artifactKey: Guid(d42ddc93108a67741bc7c3b8ae7b0225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7781.asset using Guid(d42ddc93108a67741bc7c3b8ae7b0225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73301ee4564a323cb9412cb97419c206') in 0.006436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7615.asset
+  artifactKey: Guid(aa81f48771f2209439a4ec5b6a0ec0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7615.asset using Guid(aa81f48771f2209439a4ec5b6a0ec0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f88a038322df1aef65040daee773b3') in 0.012533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7560.asset
+  artifactKey: Guid(c84cc25c8c5b39348aebb97d2f42711f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7560.asset using Guid(c84cc25c8c5b39348aebb97d2f42711f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9067e4fa25505e5a4951278e7c31b1f') in 0.016667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.009.asset
+  artifactKey: Guid(ba25e1a278005ae499b5e7ae4a212e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.009.asset using Guid(ba25e1a278005ae499b5e7ae4a212e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a3f0cd4ad1e39db0a57a6e1953c44b') in 0.012016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual/Mesh/Building_00.asset
+  artifactKey: Guid(ef750b3878537b54d988ae8e548cc384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Building_00.asset using Guid(ef750b3878537b54d988ae8e548cc384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d40da9312a5584e652ece75549ff27') in 0.012340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7763.asset
+  artifactKey: Guid(f9b0e95ecd21abf4e8d31ba3ed105fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7763.asset using Guid(f9b0e95ecd21abf4e8d31ba3ed105fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbde08284121876004bf5dc416b64ff') in 0.013179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7895.asset
+  artifactKey: Guid(342c2e84c243aaa4e8787afa34131f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7895.asset using Guid(342c2e84c243aaa4e8787afa34131f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c120a38cc39daa6124ca31ed35bbe104') in 0.020376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7654.asset
+  artifactKey: Guid(2f508aaf99dc02444a58afd354970f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7654.asset using Guid(2f508aaf99dc02444a58afd354970f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe1f4066c13178128051588050ce8eb') in 0.008426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7767.asset
+  artifactKey: Guid(9a6c0bad2e145ad4198637e72ea460d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7767.asset using Guid(9a6c0bad2e145ad4198637e72ea460d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01f601fc75512f8c1bf6ad1be8b15d5') in 0.006344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.172.asset
+  artifactKey: Guid(6e6de1b990b8c684f9f9b46780b6889a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.172.asset using Guid(6e6de1b990b8c684f9f9b46780b6889a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd614ba544789f4314022f20a160caa2') in 0.024128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7710.asset
+  artifactKey: Guid(c99274d0af0c88c47bfb40d5fa5977d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7710.asset using Guid(c99274d0af0c88c47bfb40d5fa5977d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7321db6473a5131fed111bcf456a15') in 0.011126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual/Mesh/Lingo.asset
+  artifactKey: Guid(0e376a30eff05094483f50f031812967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Lingo.asset using Guid(0e376a30eff05094483f50f031812967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e47d856e6545a0201d85ffda6507966') in 0.013802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/CinГ©ma_Rich.asset
+  artifactKey: Guid(5bf2429a06ce22c479b0f70ccde2363f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/CinГ©ma_Rich.asset using Guid(5bf2429a06ce22c479b0f70ccde2363f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9ac9dd99a29801c98396efa62b3f6a') in 0.014509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7719.asset
+  artifactKey: Guid(4670b612f954bfb4ca05e0dd7d6fba0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7719.asset using Guid(4670b612f954bfb4ca05e0dd7d6fba0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1701665e300222ec0c3960e34f5258') in 0.010971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7778.asset
+  artifactKey: Guid(05eb6b4d09560074297eb525b4542e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7778.asset using Guid(05eb6b4d09560074297eb525b4542e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835a0b26d9337755e7d30b4371c4dac6') in 0.006024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7617.asset
+  artifactKey: Guid(cac0755a6569d1f448e60383bbb7fd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7617.asset using Guid(cac0755a6569d1f448e60383bbb7fd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994f184f4e4a98f5f7322acb33fa8208') in 0.018635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual/Mesh/Children_Rich_Room.asset
+  artifactKey: Guid(8b3ff4ed9f17eb94eb052e8c87a293d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Children_Rich_Room.asset using Guid(8b3ff4ed9f17eb94eb052e8c87a293d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1c99847bdb40a352fea064c3fe22a5') in 0.007840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Visual/Mesh/Grass.asset
+  artifactKey: Guid(74522edf324b5ba4b9e45da01f290d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Grass.asset using Guid(74522edf324b5ba4b9e45da01f290d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96498f5e547f65ef29ef83c3a7dbf02') in 0.015556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7881.asset
+  artifactKey: Guid(5eb20c538c40d3549afd150ca223fd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7881.asset using Guid(5eb20c538c40d3549afd150ca223fd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17d0a1bdb11c6dd397c7ed527f4d2ce') in 0.028914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7790.asset
+  artifactKey: Guid(fa5b2a28d8ec3804785ff42c60e497c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7790.asset using Guid(fa5b2a28d8ec3804785ff42c60e497c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3585a9d7f44be4a4804f54c2b4295e1a') in 0.017386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/Cowboy_Millionaire.asset
+  artifactKey: Guid(3d6f7cbf18b6aba48adab778275f90e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Cowboy_Millionaire.asset using Guid(3d6f7cbf18b6aba48adab778275f90e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2d6d5105ecba4a2ed029f47cdd80d0') in 0.031234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7502.asset
+  artifactKey: Guid(13a30c9806c92bb4593257b813348f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7502.asset using Guid(13a30c9806c92bb4593257b813348f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b58f84032cfb61047733eb0926c55b') in 0.007817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7563.asset
+  artifactKey: Guid(14f435f6867d3ef4f8bc194efc0973c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7563.asset using Guid(14f435f6867d3ef4f8bc194efc0973c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b2f46d07e43d01702bc179cb4a4b80') in 0.014631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7770.asset
+  artifactKey: Guid(923e2dc7d708cc7499985a20ea50b1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7770.asset using Guid(923e2dc7d708cc7499985a20ea50b1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81401058347d6ebe80517c2f6e9671ef') in 0.012471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7638.asset
+  artifactKey: Guid(cdcddd1342bc13c4a82173cd2f7f0331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7638.asset using Guid(cdcddd1342bc13c4a82173cd2f7f0331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82594bc578a8ffa5dfd25c11e94c2fe') in 0.012587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7723.asset
+  artifactKey: Guid(c3c526fb9e922af4b9c62063e7d7879c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7723.asset using Guid(c3c526fb9e922af4b9c62063e7d7879c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5019daa77e872ea7e387e59e0d019d3') in 0.013510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7893.asset
+  artifactKey: Guid(e75fd7b558c217b428c8984a010fedcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7893.asset using Guid(e75fd7b558c217b428c8984a010fedcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588453034385760bca2d437f7823471f') in 0.007708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Visual/Mesh/Door_Poor_002.asset
+  artifactKey: Guid(03fd2e847a4931a40b0ed80cd3588e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Door_Poor_002.asset using Guid(03fd2e847a4931a40b0ed80cd3588e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeff3ae9d8f6bc914ba2d5fa14990028') in 0.012428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual/Mesh/Assiette.asset
+  artifactKey: Guid(f384fb55cf7059e43ac86a5b97e8c23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Assiette.asset using Guid(f384fb55cf7059e43ac86a5b97e8c23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f9a8ecdae15f5a760640af6ebb4955') in 0.012698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/Bathroom_Poor.asset
+  artifactKey: Guid(86b10a91f886e3247abf6ae4768fa5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Bathroom_Poor.asset using Guid(86b10a91f886e3247abf6ae4768fa5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbad0fcc640b3a1528a644b36b717ef') in 0.007216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/Bench.asset
+  artifactKey: Guid(3f923d7865efd704ca02c9280063fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Bench.asset using Guid(3f923d7865efd704ca02c9280063fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe04246df4ac33667620ed56175d250') in 0.017147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual/Mesh/bibli_Descent.asset
+  artifactKey: Guid(b4022c477c233a649b73b293592f97b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/bibli_Descent.asset using Guid(b4022c477c233a649b73b293592f97b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bac361351bcff9e8b2bdde90cc6fad') in 0.013435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Visual/Mesh/bibli_Rich.asset
+  artifactKey: Guid(51ced9c5ad4065045863c3a74ae85748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/bibli_Rich.asset using Guid(51ced9c5ad4065045863c3a74ae85748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d358ca4a41e5ca383b2880adfcacfb') in 0.012001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7513.asset
+  artifactKey: Guid(59b5a11c79e4e19449ce35f7e6a7b7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7513.asset using Guid(59b5a11c79e4e19449ce35f7e6a7b7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b5d7175d34c990ce2ae42f84e63ba6') in 0.026271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/Aladdin_Middle.asset
+  artifactKey: Guid(c91fea0892c20cc4cbba619d941fb936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Aladdin_Middle.asset using Guid(c91fea0892c20cc4cbba619d941fb936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4792d11066907e8fb580bb6bd97096') in 0.021287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.078835 seconds.
+  path: Assets/Visual/Mesh/Aladdin_Rich.asset
+  artifactKey: Guid(4ed54d10e8551e2488c76ef09b00319d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Aladdin_Rich.asset using Guid(4ed54d10e8551e2488c76ef09b00319d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fcd2bacaa60592084fd538d853211e') in 0.029828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/Art_Escalier_Rich.asset
+  artifactKey: Guid(72d673a46016bce498fdd95b8ceb96ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Art_Escalier_Rich.asset using Guid(72d673a46016bce498fdd95b8ceb96ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7189f7fdae329b0e8af7df19a344a9') in 0.014000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/EndLevel_Blue.asset
+  artifactKey: Guid(0fbfa1e586e18f9419927cdd0184b54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/EndLevel_Blue.asset using Guid(0fbfa1e586e18f9419927cdd0184b54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135476de0a86b5c3f8cbf0bf0d76a97e') in 0.006392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7645.asset
+  artifactKey: Guid(8d1b473833f5d99459281c78883fb69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7645.asset using Guid(8d1b473833f5d99459281c78883fb69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6093ebf1209568f8b7194f4808362cf1') in 0.005647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7529.asset
+  artifactKey: Guid(edd66fa73e41c5440ad0ec1317f101f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7529.asset using Guid(edd66fa73e41c5440ad0ec1317f101f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe87452549a1559d9d94e99917e85e7') in 0.007774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/Cowboy_Poor.asset
+  artifactKey: Guid(064614dbce17bea4e8fccbbbd8ea1786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Cowboy_Poor.asset using Guid(064614dbce17bea4e8fccbbbd8ea1786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477b776e951f793efccd8a855a0db159') in 0.024350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7619.asset
+  artifactKey: Guid(d2c9cd7d373fd0d4eb4ed4e2fb4b6cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7619.asset using Guid(d2c9cd7d373fd0d4eb4ed4e2fb4b6cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3004dac251903883e1e0e23311842144') in 0.012353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.024.asset
+  artifactKey: Guid(8e5eaa6b3a8cffc4dbf0b7023096ac53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.024.asset using Guid(8e5eaa6b3a8cffc4dbf0b7023096ac53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed07926ca98a57f9dd0bbb6da42f939') in 0.012636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7537.asset
+  artifactKey: Guid(bc44e40ab92a9fe43a91710363287166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7537.asset using Guid(bc44e40ab92a9fe43a91710363287166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dea396bcf34d5053b8f7b351f0199fc') in 0.013027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7820.asset
+  artifactKey: Guid(0a7754bc1886402468dec476443a2e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7820.asset using Guid(0a7754bc1886402468dec476443a2e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980de32801583f31cd278c2da1bb71a3') in 0.012717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual/Mesh/Art_Rich_02.asset
+  artifactKey: Guid(e90acfda6e705fd4382ca56dd0ae2af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Art_Rich_02.asset using Guid(e90acfda6e705fd4382ca56dd0ae2af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77170b47e286c03f2d00740a375fff8c') in 0.013869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7558.asset
+  artifactKey: Guid(60fc54eee8f82dc44b409b31c39d1095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7558.asset using Guid(60fc54eee8f82dc44b409b31c39d1095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a271470cd5a656f6c61d9a34fd29d144') in 0.012944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7567.asset
+  artifactKey: Guid(26be083132b62a6448acbe5924768a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7567.asset using Guid(26be083132b62a6448acbe5924768a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8df643d2601d0eb51d9b0f4471e2e7') in 0.015196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.126.asset
+  artifactKey: Guid(6949cc5b3ddd4474aa1685d757eb6c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.126.asset using Guid(6949cc5b3ddd4474aa1685d757eb6c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873604bd9dc291ba3dbb747acd971d0b') in 0.013809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/Cylinder.asset
+  artifactKey: Guid(1f3558db4cd78574bbe282cbfbc84cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/Cylinder.asset using Guid(1f3558db4cd78574bbe282cbfbc84cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd66ab30a331e1c7d8bafe076b48a164') in 0.013504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7507.asset
+  artifactKey: Guid(57f9021209c093540bfce4f283e6ca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7507.asset using Guid(57f9021209c093540bfce4f283e6ca03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ee03c35e3233013d4bc6429ddf3770') in 0.015372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7573.asset
+  artifactKey: Guid(4de15e8a89f801a43972f316f2600316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7573.asset using Guid(4de15e8a89f801a43972f316f2600316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4617e113ae4d7e3024a38ef2c80b7faf') in 0.011960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Visual/Mesh/LowPoly/dollar.fbx
+  artifactKey: Guid(caa69e13908e0b044a14ca6bd5c1beec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/LowPoly/dollar.fbx using Guid(caa69e13908e0b044a14ca6bd5c1beec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89acece817869b69970d577847b2d56e') in 0.022630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7875.asset
+  artifactKey: Guid(06d94af0bc4fb294586f4ecce3d38dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7875.asset using Guid(06d94af0bc4fb294586f4ecce3d38dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168a12d50dfa14275b6c3b5179205862') in 0.014703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.116.asset
+  artifactKey: Guid(199bb393515802f4e87c2aa669375c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.116.asset using Guid(199bb393515802f4e87c2aa669375c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1118563c2a4afaafd4c216b1d98b4b55') in 0.013413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7624.asset
+  artifactKey: Guid(e6f283091fcdee044abfb23bcd121189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7624.asset using Guid(e6f283091fcdee044abfb23bcd121189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905b16e37cf7230d7345f245cfa828d8') in 0.011792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7877.asset
+  artifactKey: Guid(5835907d900f9ec4d93ff758f0e12f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7877.asset using Guid(5835907d900f9ec4d93ff758f0e12f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183904c2cc75e9fa007ede14ec8ed1dd') in 0.013610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7566.asset
+  artifactKey: Guid(8db210aa030bbde46898e2f5720b9874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7566.asset using Guid(8db210aa030bbde46898e2f5720b9874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e5cea73dbe16ec50610dd545bb5b4d') in 0.007140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.115.asset
+  artifactKey: Guid(e0c6af4f3a051e54da8a34bf0c66aab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.115.asset using Guid(e0c6af4f3a051e54da8a34bf0c66aab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113624a399b6426dd5759451fb1d8ca2') in 0.013656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Mesh/low_poly_interior.7900.asset
+  artifactKey: Guid(5370a951ac7a8d8499c788adb761a0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Mesh/low_poly_interior.7900.asset using Guid(5370a951ac7a8d8499c788adb761a0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8a1163077b028c61e71d5b5d0ae0ca') in 0.014433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.329181 seconds.
+  path: Assets/Visual/Material/MainFont-BlackOut.mat
+  artifactKey: Guid(07fab3a9c3daa7e4587bdbfa96bcf3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/MainFont-BlackOut.mat using Guid(07fab3a9c3daa7e4587bdbfa96bcf3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0007d081988aaf7501fd0f314ed353') in 0.014969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Material/skybox.mat
+  artifactKey: Guid(d367eb8e3f751874eab7f9a67c05eefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/skybox.mat using Guid(d367eb8e3f751874eab7f9a67c05eefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d46216c8d24073329ba662474e2fb61') in 0.019505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Material/TryAgain.mat
+  artifactKey: Guid(742aa2c92b18df847aa6804cb29f49d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/TryAgain.mat using Guid(742aa2c92b18df847aa6804cb29f49d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c41fbc3b793ad2b69ce6b4f4d3561c') in 0.009120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual/Material/MainFont-Win.mat
+  artifactKey: Guid(731e77c08009d224eae39a312c8c2488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/MainFont-Win.mat using Guid(731e77c08009d224eae39a312c8c2488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df006208c28df181c5b49fbdb4cd237') in 0.021750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual/Material/Star.mat
+  artifactKey: Guid(b47223d96747b0b4285fac1a2d88579c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/Star.mat using Guid(b47223d96747b0b4285fac1a2d88579c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc05bf5abe48ba05dc5f72d4b7959a4') in 0.006557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Visual/Material/umbrella_poor.mat
+  artifactKey: Guid(a5547c52efda98644bfba7d47a4abf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/umbrella_poor.mat using Guid(a5547c52efda98644bfba7d47a4abf05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558b0b90997a4f45b978c9d65635c46d') in 0.006619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Material/PaperBloc.mat
+  artifactKey: Guid(58ddaf49c9076d84b9e9e17fbf334007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/PaperBloc.mat using Guid(58ddaf49c9076d84b9e9e17fbf334007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31d729551efdf8b8c18a2a5f45f8368') in 0.006784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual/Material/sparkle.mat
+  artifactKey: Guid(c32054cdd3a55164dbca9a6918110844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/sparkle.mat using Guid(c32054cdd3a55164dbca9a6918110844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b394544b709cc65413b8985088a9e5c') in 0.040566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Visual/Material/TextMeshPro_Sprite_0.mat
+  artifactKey: Guid(4b0aba1328baaed49bcf8320bd213dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/TextMeshPro_Sprite_0.mat using Guid(4b0aba1328baaed49bcf8320bd213dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d3239990d98477378665b549455ea4') in 0.020708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Material/player_mat.mat
+  artifactKey: Guid(4707c27df5682c541b2ddb1eccaafef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/player_mat.mat using Guid(4707c27df5682c541b2ddb1eccaafef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab2943f45001554b0b4397868ec0ff0') in 0.007785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Material/stars_add.mat
+  artifactKey: Guid(d93e8fd91b10e1e41a49ed4877257f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/stars_add.mat using Guid(d93e8fd91b10e1e41a49ed4877257f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7048de0316fc3959fa6e5c8729f36f2') in 0.010232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Material/umbrella_millionaire.mat
+  artifactKey: Guid(bbafe2d393fabb14e82680a509c18911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/umbrella_millionaire.mat using Guid(bbafe2d393fabb14e82680a509c18911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0110e2bc624c95af9fc04143bba81f') in 0.020431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Visual/Material/NotoSansCJK-Regular Atlas Material.mat
+  artifactKey: Guid(4e73586787d74cb4291952a8f1a19e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/NotoSansCJK-Regular Atlas Material.mat using Guid(4e73586787d74cb4291952a8f1a19e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5975bb373bb6aeb14efddfb2895bc3ca') in 0.007736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Visual/Material/ramp-ground.mat
+  artifactKey: Guid(502e20b7fbcd6d64a9bb2513b853129f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/ramp-ground.mat using Guid(502e20b7fbcd6d64a9bb2513b853129f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1167a54e3a474b5359717657db27c016') in 0.011052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Material/player_mat_Shop.mat
+  artifactKey: Guid(c43ce079c378b0045a4caf4016da6d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/player_mat_Shop.mat using Guid(c43ce079c378b0045a4caf4016da6d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4517d85367c56b7149ce344ef86af2') in 0.007047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Material/Mikado Material.mat
+  artifactKey: Guid(f612c1d345d1bb44ca3ea1a808cb1f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/Mikado Material.mat using Guid(f612c1d345d1bb44ca3ea1a808cb1f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4a68bec8b957621e7c195bf2dd9d25') in 0.026259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual/Material/props_spec.mat
+  artifactKey: Guid(dc9d5375281bc764c8230152373cb067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/props_spec.mat using Guid(dc9d5375281bc764c8230152373cb067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd8d5f99a3f7c92ae238eabc4b52f88') in 0.015409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual/Material/Plane_Finish.mat
+  artifactKey: Guid(b0d85d6893623094d856573b723367fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/Plane_Finish.mat using Guid(b0d85d6893623094d856573b723367fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a2a8116d7653d78527cb4ba9a21141') in 0.006935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Material/mat_blue_transp.mat
+  artifactKey: Guid(33feae2e54a82b04ea19fc02e1be0d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/mat_blue_transp.mat using Guid(33feae2e54a82b04ea19fc02e1be0d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044e9033eaac29536bdf545c8a36a541') in 0.006143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual/Material/props_flat_bad.mat
+  artifactKey: Guid(32835e78e02bf23409834811c0c236ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/props_flat_bad.mat using Guid(32835e78e02bf23409834811c0c236ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe25bdda5e9a5a19768b0e857e30a20') in 0.005339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.990694 seconds.
+  path: Assets/Visual/Fonts/LiberationSans.ttf
+  artifactKey: Guid(308b417fa909a0a438b3d759f35ba977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Fonts/LiberationSans.ttf using Guid(308b417fa909a0a438b3d759f35ba977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bf996548648956b5bedf115d158654') in 0.032566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Visual/Material/halo_splash.mat
+  artifactKey: Guid(678e86ab9f488b64080150a94a71ed2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/halo_splash.mat using Guid(678e86ab9f488b64080150a94a71ed2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9894fe522e2e847603751df1810b2e53') in 0.006492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010085 seconds.
+  path: Assets/Visual/Material/BadDoor.mat
+  artifactKey: Guid(f71a91d953394724f861bb1f77b32629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/BadDoor.mat using Guid(f71a91d953394724f861bb1f77b32629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ed22e772e6020082bed6d3c47f55ce') in 0.007372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual/Material/BadItem.mat
+  artifactKey: Guid(235081dd056fb3b4a8abb8f23a5767bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/BadItem.mat using Guid(235081dd056fb3b4a8abb8f23a5767bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08d3f41689b88017acbe7269f391d99') in 0.005547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual/Default.mat
+  artifactKey: Guid(d6e3c15705ceb674c989bd1f4f3106e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Default.mat using Guid(d6e3c15705ceb674c989bd1f4f3106e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d942e6f09d1f4963aa63968c5e7c6fb') in 0.007139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual/Material/ContinueRichItemEnable.mat
+  artifactKey: Guid(88b31d1ba90f4224c8d39fbf19f495ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/ContinueRichItemEnable.mat using Guid(88b31d1ba90f4224c8d39fbf19f495ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd6bc31c032d85642c38baaa82dc912') in 0.006252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual/Material/Checkpoints.mat
+  artifactKey: Guid(ea5ccd1d4d9f2004d9a0189334e5bbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual/Material/Checkpoints.mat using Guid(ea5ccd1d4d9f2004d9a0189334e5bbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de27c519e310dcc1528f21a38c8bd25a') in 0.005833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
